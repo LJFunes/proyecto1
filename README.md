@@ -140,9 +140,9 @@ Para desplegar la API, se utilizó el web service de **Render**, el cual se vinc
 
 ### 6) Presentación de resultados del MVP
 
-Se grabó un video explicativo de 7 minutos sobre la manera en que se construyó y deployó la API, y su funcionamiento en render.
+Se graba un video para mostrar que las herramientas funcionan, explicando el resultado de las consultas propuestas y del modelo de ML entrenado para el sistema de recomendación.
 
-> Para ver el video, ingrese al siguiente link: [video explicativo]()
+> Para ver el video, ingrese al siguiente link: [video explicativo](https://youtu.be/0bAxUdJmAcE)
 
 <br><br><br>
 
