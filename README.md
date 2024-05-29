@@ -39,7 +39,7 @@ Para desarrollar el proyecto se utilizaron tres archivos en formato JSON (en el 
 
 ## TECNOLOGIAS EMPLEADAS EN EL PROYECTO
 
-Se utilizó el editor de código **Visual Studio Code**, de Microsoft&reg;, y el lenguaje de programación **Python** (aprovechando la extensión de **Jupyter Notebook** en VSCode) para realizar la limpieza de los datasets (ETL), el análisis exploratorio de los datos (EDA), el análisis de sentimiento . Se trabajó con archivos en formato json y parquet.
+Se utilizó el editor de código **Visual Studio Code**, de Microsoft&reg;, y el lenguaje de programación **Python** (aprovechando la extensión de **Jupyter Notebook** en VSCode) para realizar todas las tareas (y se trabajó con archivos en formato json y parquet).
 
 Se emplearon varias bibliotecas de Python, entre ellas la principales **Pandas** y **Numpy** para trabajar con los dataframes, **Scikit-Learn** para el modelo de recomendación, **Matplotlib** y **Seaborn** para el EDA (Exploratory Data Analysis), y la biblioteca **NLTK** (Natural Language Toolkit) para el análisis de sentimiento.
 
@@ -85,6 +85,7 @@ En esta fase, se concentró en analizar los sentimientos expresados en los comen
 
 ### 3) EDA (Exploratory Data Analysis):
 
+Se realizó un análisis rápido de distintos aspectos de los datos, como la distribución, media y outliers de precios, correlaciones entre generos y cantidad de generos por juego, cantidad de juegos por año de lanzamiento, etc.
 
 ![Pandas](https://img.shields.io/badge/-Pandas-333333?style=flat&logo=pandas)
 ![Numpy](https://img.shields.io/badge/-Numpy-333333?style=flat&logo=numpy)
@@ -127,14 +128,17 @@ Se construyó una API mediante el uso del framework FastAPI. Esta API ofrece var
 
 - **Recomendacion_Juego:** Esta función recibe como parametro el id de un juego y retorna una lista de los 5 juegos recomendados similares al ingreso.
 
+Para desplegar la API, se utilizó el web service de **Render**, el cual se vinculó a otro repositorio de GitHub que contiene lo mínimo necesario para que funcione la API, el cual puede ver en el siguiente link: [Repositorio para deployar en Render](https://github.com/LJFunes/P1_render)
+
 ![FastAPI](https://img.shields.io/badge/-FastAPI-333333?style=flat&logo=fastapi)
 ![Render](https://img.shields.io/badge/-Render-333333?style=flat&logo=render)
+
 
 > Para poder interactuar con las funciones, ingrese al siguiente link: [Deploy en Render](https://p1-render.onrender.com/)
 
 <br>
 
-### 6) Presentación de resultados
+### 6) Presentación de resultados del MVP
 
 Se grabó un video explicativo de 7 minutos sobre la manera en que se construyó y deployó la API, y su funcionamiento en render.
 
